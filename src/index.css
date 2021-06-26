@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border:0;
+}
+.mydiv{
+  display: flex;
+  background-color:rgb(19, 202, 89);
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.logos{
+  margin: .5rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 60%;
+  box-shadow: .2rem .2rem .2rem .2rem rgb(9, 9, 49);
+}
+.head{
+  background-color:navy;
+  display: flex;
+  align-items: center;
+  box-shadow:1rem 1rem 1rem rgb(0, 34, 13);
+}
+.foothead{
+  font-size: 4rem;
+  color: white;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.dd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+html{
+  font-size: 62.5%;
+}
+.outerdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(19, 202, 89);
+flex-direction: column;
+width: 100vw;
+height: 90vh;
+margin-top: 2rem;
+}
+.btndiv{
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 50vw;
+}
+.innerdiv{
+  width:50vw;
+  height:50vh;
+  background-color: white;
+  box-shadow: .5rem .5rem .5rem .5rem rgb(8, 133, 56);
+}
+.innerdiv:hover{
+  box-shadow: 1rem 1rem 1rem 1rem rgb(6, 68, 30);
+}
+.info{
+margin-top: 3rem;
+box-shadow: .5rem .5rem .5rem .5rem rgb(8, 133, 56);
+width: 50vw;
+font-size: 2rem;
+color: white;
+}
+.info:hover{
+  box-shadow: 1rem 1rem 1rem 1rem rgb(6, 68, 30);
+}
+.slidingImage{
+  height: 50vh;
+  width: 50vw;
+}
+@media (max-width:837px){
+  html{
+    font-size: 28%;
+  }
+}
+.button01{
+  font-size: 4rem;
+  border-radius: 1rem;
+  background-color: blue;
+color: white;
+padding: .5rem;
+cursor: pointer;
+}
+.button01:hover{
+  background-color: white;
+  color: blue;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(6, 68, 30);
+}
+.button02{
+  font-size: 4rem;
+  border-radius: 1rem;
+  background-color: blue;
+color: white;
+padding: .5rem;
+cursor: pointer;
+}
+.button02:hover{
+  background-color: white;
+  color: blue;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(6, 68, 30);
+}
+.button03{
+  font-size: 4rem;
+  border-radius: 1rem;
+  background-color: blue;
+color: white;
+padding: .5rem;
+cursor: pointer;
+}
+.button03:hover{
+  background-color: white;
+  color: blue;
+  box-shadow: 1rem 1rem 1rem 1rem rgb(6, 68, 30);
+}
