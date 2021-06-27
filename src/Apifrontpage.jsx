@@ -28,7 +28,7 @@ useEffect(
              }
         }
         myyapi();
-    },[num]
+    }
 );
 
 
